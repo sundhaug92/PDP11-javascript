@@ -1,4 +1,4 @@
-var RKDS, RKER, RKCS, RKWC, RKBA, drive, sector, surface, cylinder, rkimg;
+var RKDS, RKER, RKCS, RKWC, RKBA, drive, sector, surface, cylinder, rkimg, rkdisk;
 
 var imglen = 2077696;
 
@@ -148,8 +148,7 @@ rkinit()
 {
 	var req, buf, i;
 	req = new XMLHttpRequest();
-	req.open('GET', 'http://pdp11.aiju.de/rk0', false);
-	/*req.overrideMimeType('text/plain; charset=x-user-defined');*/
+	req.open('GET', 'rk0', false);
 	req.send(null);
 	if(req.status != 200) panic("could not load disk image");
 	buf = req.responseText;
