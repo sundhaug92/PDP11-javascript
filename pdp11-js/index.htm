@@ -1,0 +1,32 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0021)http://pdp11.aiju.de/ -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dli"><HTML><HEAD>
+<META http-equiv="Content-type" content="text/html; charset=utf-8"><TITLE>PDP-11 
+emulator</TITLE><LINK title="no title" href="PDP-11%20emulator_files/phi.css" 
+rel="stylesheet" type="text/css" media="screen" charset="utf-8">
+<STYLE>
+		#terminal {
+			font-family: monospace;
+			width: 100%;
+			height: 10cm;
+		}
+		#debug {
+			font-family: monospace;
+			width: 100%;
+			height: 5cm;
+		}
+		</STYLE>
+
+<SCRIPT src="PDP-11%20emulator_files/disasm.js" type="text/javascript"></SCRIPT>
+
+<SCRIPT src="PDP-11%20emulator_files/cons.js" type="text/javascript"></SCRIPT>
+
+<SCRIPT src="PDP-11%20emulator_files/rk05.js" type="text/javascript"></SCRIPT>
+
+<SCRIPT src="PDP-11%20emulator_files/pdp11.js" type="text/javascript"></SCRIPT>
+
+<META name="GENERATOR" content="MSHTML 10.00.8250.120"></HEAD>
+<BODY onload="reset(); rkinit()"><INPUT onclick="reset()" type="button" value="reset"><INPUT onclick="run()" type="button" value="run"><INPUT onclick="stop()" type="button" value="stop"><SPAN 
+id="ips"> </SPAN><SPAN id="rkbusy" style="display: none;">hard disk busy</SPAN>
+<DIV>press run, type <TT>unix</TT> at the <TT>@</TT> prompt to load the kernel, 
+enjoy! <A href="http://aiju.de/code/pdp11/faq">faq</A></DIV><TEXTAREA id="terminal" onkeyup="specialchar(event.which)" onkeypress="addchar(event.which)" readOnly="readonly"> </TEXTAREA><TEXTAREA id="debug" readOnly="readonly"> </TEXTAREA></BODY></HTML>
