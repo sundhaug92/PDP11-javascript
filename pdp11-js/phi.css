@@ -1,81 +1,126 @@
 body {
-	font-size: 12pt; background-color: rgb(255, 255, 255);
+    font-size: 12pt;
+    background-color: rgb(255, 255, 255);
 }
+
 * {
-	font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 1em;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 1em;
 }
+
 p {
-	font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 1em;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 1em;
 }
+
 table {
-	font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 1em;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 1em;
 }
+
 tr {
-	font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 1em;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 1em;
 }
+
 td {
-	font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 1em;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 1em;
 }
+
 th {
-	font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 1em;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 1em;
 }
+
 h2 {
-	font-size: 1.5em;
+    font-size: 1.5em;
 }
+
 table {
-	border-collapse: collapse;
+    border-collapse: collapse;
 }
+
 tr {
-	border: 1pt solid rgb(204, 204, 204);
+    border: 1pt solid rgb(204, 204, 204);
 }
+
 td {
-	border: 1pt solid rgb(204, 204, 204);
+    border: 1pt solid rgb(204, 204, 204);
 }
+
 th {
-	border: 1pt solid rgb(204, 204, 204);
+    border: 1pt solid rgb(204, 204, 204);
 }
+
 table th {
-	background-color: rgb(221, 221, 255);
+    background-color: rgb(221, 221, 255);
 }
+
 table.noborder tr {
-	border: currentColor;
+    border: currentColor;
 }
+
 table.noborder td {
-	border: currentColor;
+    border: currentColor;
 }
+
 table.noborder th {
-	border: currentColor;
+    border: currentColor;
 }
+
 a:link {
-	color: rgb(0, 0, 255); text-decoration: none;
+    color: rgb(0, 0, 255);
+    text-decoration: none;
 }
+
 a:visited {
-	color: rgb(0, 0, 255); text-decoration: none;
+    color: rgb(0, 0, 255);
+    text-decoration: none;
 }
+
 a:hover {
-	color: rgb(0, 85, 255); text-decoration: underline;
+    color: rgb(0, 85, 255);
+    text-decoration: underline;
 }
+
 div#bdy {
-	border: 1pt solid rgb(0, 204, 0); padding-left: 0.5em; margin-right: 20%; background-color: rgb(204, 255, 204);
+    border: 1pt solid rgb(0, 204, 0);
+    padding-left: 0.5em;
+    margin-right: 20%;
+    background-color: rgb(204, 255, 204);
 }
+
 ul#navi {
-	margin: 0px; padding: 0.2em; border: 1pt solid rgb(255, 204, 204); width: 15%; float: right; background-color: rgb(238, 238, 238);
+    margin: 0px;
+    padding: 0.2em;
+    border: 1pt solid rgb(255, 204, 204);
+    width: 15%;
+    float: right;
+    background-color: rgb(238, 238, 238);
 }
-ul#navi li {
-	list-style: none;
-}
+
+    ul#navi li {
+        list-style: none;
+    }
+
 pre {
-	font-family: monospace;
+    font-family: monospace;
 }
+
 tt {
-	font-family: monospace;
+    font-family: monospace;
 }
+
 .tt {
-	font-family: monospace;
+    font-family: monospace;
 }
+
 .ttw {
-	font-family: monospace; white-space: pre-wrap;
+    font-family: monospace;
+    white-space: pre-wrap;
 }
+
 .small {
-	font-size: 6pt;
+    font-size: 6pt;
 }
