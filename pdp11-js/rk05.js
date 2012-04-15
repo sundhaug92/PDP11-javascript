@@ -148,13 +148,12 @@ rkinit()
 {
 	var req, buf, i;
 	req = new XMLHttpRequest();
-	req.open('GET', 'rk0', false);
+	req.open('GET', '0.rk', false);
 	req.send(null);
 	if(req.status != 200) panic("could not load disk image");
-	buf = req.responseText;
-	if(buf.length != imglen) panic("file too short, got " + buf.length.toString() + ", expected " + imglen.toString());
-	rkdisk = new Array(buf.length);
-	for(i=0;i<buf.length;i++) {
-		rkdisk[i] = buf.charCodeAt(i) & 0xFF;
+	buf = req.response;
+	rkdisk = new Array(imglen);
+	for (i = 0; i < imglen; i++) {
+		rkdisk[i] = buf[i] & 0xFF;
 	}
 }
